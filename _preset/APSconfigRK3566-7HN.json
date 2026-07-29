@@ -48,10 +48,10 @@
             "_flag_Filter_Gryo_NotchFreq": 144,
             "_flag_Filter_Gryo_Type": 1,
             "_flag_Filter_PID_D_ST1_CutOff": 45.0,
-            "_flag_Filter_PID_D_ST1_Type": 1.0,
+            "_flag_Filter_PID_D_ST1_Type": 1,
             "_flag_Filter_PID_D_ST2_CutOff": 80.0,
-            "_flag_Filter_PID_D_ST2_Type": 0.0,
-            "_flag_Filter_PID_I_CutOff": 15.0,
+            "_flag_Filter_PID_D_ST2_Type": 0,
+            "_flag_Filter_PID_I_CutOff": 0,
             "_flag_Filter_RC_CutOff": 15.0,
             "_flag_Flow_Config_Beta": 1.0,
             "_flag_GPSAlt_Trust_Beta": 0.15,
@@ -114,7 +114,7 @@
                 "_flag_PID_Alt_Speed_Max": 50.0,
                 "_flag_PID_D_SpeedZ_Gain": 25.0,
                 "_flag_PID_Hover_Throttle": 1200.0,
-                "_flag_PID_I_Alt_Gain": 0,
+                "_flag_PID_I_Alt_Gain": 0.0,
                 "_flag_PID_I_SpeedZ_Gain": 0.06,
                 "_flag_PID_P_Alt_Gain": 0.5,
                 "_flag_PID_P_SpeedZ_Gain": 1.5,
@@ -332,5 +332,7 @@
             "V4L2EncoderWidth": 640,
             "V4L2Isp": []
         }
-    }
+    },
+    "_info": "AcroPi V2 config for 7inch quadCopter",
+    "_title": "RK3566-7HN"
 }
