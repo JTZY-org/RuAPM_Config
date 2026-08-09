@@ -204,32 +204,32 @@
             ],
             "_flag_COMPASS_CaliW": [
                 [
-                    1,
-                    0,
-                    0
+                    1.0,
+                    0.0,
+                    0.0
                 ],
                 [
-                    0,
-                    1,
-                    0
+                    0.0,
+                    1.0,
+                    0.0
                 ],
                 [
-                    0,
-                    0,
-                    1
+                    0.0,
+                    0.0,
+                    1.0
                 ]
             ],
             "_flag_COMPASS_Flip_Pitch": 180.0,
             "_flag_COMPASS_Flip__Roll": 0.0,
             "_flag_COMPASS_Flip___Yaw": 270.0,
             "_flag_COMPASS_YAW_Offset": 0.0,
-            "_flag_Flow_BodyAsixX_Gain": -0.025,
-            "_flag_Flow_BodyAsixY_Gain": 0.025,
+            "_flag_Flow_BodyAsixX_Gain": -0.03,
+            "_flag_Flow_BodyAsixY_Gain": 0.03,
             "_flag_Flow_MaxDistance": 6000.0,
             "_flag_Flow_QualityAllow": 50.0,
-            "_flag_Flow_XPreGain": 200.0,
+            "_flag_Flow_XPreGain": -500.0,
             "_flag_Flow_XYRevserse": true,
-            "_flag_Flow_YPreGain": 200.0,
+            "_flag_Flow_YPreGain": -500.0,
             "_flag_MPU9250_A_X_Cali": 0,
             "_flag_MPU9250_A_X_Scal": 1,
             "_flag_MPU9250_A_Y_Cali": 0,
