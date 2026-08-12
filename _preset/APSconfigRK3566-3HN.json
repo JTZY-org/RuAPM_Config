@@ -38,15 +38,15 @@
             "_flag_Filter_AngleMix_Alpha": 0.2,
             "_flag_Filter_AngleRate_CutOff": 20.0,
             "_flag_Filter_GYaw_CutOff": 0,
-            "_flag_Filter_GryoST2_CutOff": 70,
-            "_flag_Filter_GryoST2_Type": 0,
-            "_flag_Filter_Gryo_CutOff": 50,
-            "_flag_Filter_Gryo_DynamicNotchEnable": false,
-            "_flag_Filter_Gryo_DynamicNotchMinFreq": 63,
-            "_flag_Filter_Gryo_DynamicNotchRange": 2,
-            "_flag_Filter_Gryo_NotchCutOff": 100,
-            "_flag_Filter_Gryo_NotchFreq": 144,
-            "_flag_Filter_Gryo_Type": 1,
+            "_flag_Filter_GyroST2_CutOff": 70,
+            "_flag_Filter_GyroST2_Type": 0,
+            "_flag_Filter_Gyro_CutOff": 50,
+            "_flag_Filter_Gyro_DynamicNotchEnable": false,
+            "_flag_Filter_Gyro_DynamicNotchMinFreq": 63,
+            "_flag_Filter_Gyro_DynamicNotchRange": 2,
+            "_flag_Filter_Gyro_NotchCutOff": 100,
+            "_flag_Filter_Gyro_NotchFreq": 144,
+            "_flag_Filter_Gyro_Type": 1,
             "_flag_Filter_PID_D_ST1_CutOff": 45.0,
             "_flag_Filter_PID_D_ST1_Type": 1,
             "_flag_Filter_PID_D_ST2_CutOff": 80.0,
@@ -167,27 +167,103 @@
             }
         },
         "RCConfig": {
+            "APModeName": [
+                "ARM",
+                "Rate",
+                "Angle",
+                "Manual",
+                "UserAuto",
+                "SpeedHold",
+                "PositionHold",
+                "GPSTrack",
+                "GroundTrack",
+                "UserInTrack",
+                "AltHold",
+                "AGLHold",
+                "MagHold",
+                "YawHold",
+                "BlackBoxErase"
+            ],
+            "APModeRange": [
+                [
+                    4,
+                    1800,
+                    2000
+                ],
+                [
+                    5,
+                    1900,
+                    2000
+                ],
+                [
+                    5,
+                    1000,
+                    1900
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ]
+            ],
             "_flag_RCIsReserv_Pitch": 1,
             "_flag_RCIsReserv__Roll": 1,
             "_flag_RCIsReserv___Yaw": 1,
-            "_flag_RC_AF_BlackBoxErase_PWM_Channel": 6,
-            "_flag_RC_AF_BlackBoxErase_PWM_Value": 2004,
-            "_flag_RC_AP_AltHold_PWM_Channel": 5,
-            "_flag_RC_AP_AltHold_PWM_Value": 1189,
-            "_flag_RC_AP_AutoStable_PWM_Channel": 5,
-            "_flag_RC_AP_AutoStable_PWM_Value": 985,
-            "_flag_RC_AP_Manual_PWM_Channel": -1,
-            "_flag_RC_AP_Manual_PWM_Value": -1,
-            "_flag_RC_AP_PositionHold_PWM_Channel": 5,
-            "_flag_RC_AP_PositionHold_PWM_Value": 1393,
-            "_flag_RC_AP_RateHold_PWM_Channel": 5,
-            "_flag_RC_AP_RateHold_PWM_Value": 2004,
-            "_flag_RC_AP_SpeedHold_PWM_Channel": 5,
-            "_flag_RC_AP_SpeedHold_PWM_Value": 1595,
-            "_flag_RC_AP_UserAuto_PWM_Channel": 5,
-            "_flag_RC_AP_UserAuto_PWM_Value": 1799,
-            "_flag_RC_ARM_PWM_Channel": 4,
-            "_flag_RC_ARM_PWM_Value": 2000,
             "_flag_RC_DeadBand": 100,
             "_flag_RC_Max_PWM_Value": 2050,
             "_flag_RC_Mid_PWM_Value": 1500,
