@@ -167,27 +167,103 @@
             }
         },
         "RCConfig": {
+            "APModeName": [
+                "ARM",
+                "Rate",
+                "Angle",
+                "Manual",
+                "UserAuto",
+                "SpeedHold",
+                "PositionHold",
+                "GPSTrack",
+                "GroundTrack",
+                "UserInTrack",
+                "AltHold",
+                "AGLHold",
+                "MagHold",
+                "YawHold",
+                "BlackBoxErase"
+            ],
+            "APModeRange": [
+                [
+                    4,
+                    1800,
+                    2200
+                ],
+                [
+                    5,
+                    1950,
+                    2200
+                ],
+                [
+                    5,
+                    900,
+                    1900
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    1750,
+                    1850
+                ],
+                [
+                    5,
+                    1550,
+                    1700
+                ],
+                [
+                    5,
+                    1250,
+                    1450
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    1100,
+                    1900
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    -1,
+                    0,
+                    0
+                ],
+                [
+                    6,
+                    1800,
+                    2000
+                ]
+            ],
             "_flag_RCIsReserv_Pitch": 1,
             "_flag_RCIsReserv__Roll": 1,
             "_flag_RCIsReserv___Yaw": 1,
-            "_flag_RC_AF_BlackBoxErase_PWM_Channel": 6,
-            "_flag_RC_AF_BlackBoxErase_PWM_Value": 2004,
-            "_flag_RC_AP_AltHold_PWM_Channel": 5,
-            "_flag_RC_AP_AltHold_PWM_Value": 1189,
-            "_flag_RC_AP_AutoStable_PWM_Channel": 5,
-            "_flag_RC_AP_AutoStable_PWM_Value": 985,
-            "_flag_RC_AP_Manual_PWM_Channel": -1,
-            "_flag_RC_AP_Manual_PWM_Value": -1,
-            "_flag_RC_AP_PositionHold_PWM_Channel": 5,
-            "_flag_RC_AP_PositionHold_PWM_Value": 1393,
-            "_flag_RC_AP_RateHold_PWM_Channel": 5,
-            "_flag_RC_AP_RateHold_PWM_Value": 2004,
-            "_flag_RC_AP_SpeedHold_PWM_Channel": 5,
-            "_flag_RC_AP_SpeedHold_PWM_Value": 1595,
-            "_flag_RC_AP_UserAuto_PWM_Channel": 5,
-            "_flag_RC_AP_UserAuto_PWM_Value": 1799,
-            "_flag_RC_ARM_PWM_Channel": 4,
-            "_flag_RC_ARM_PWM_Value": 2000,
             "_flag_RC_DeadBand": 100,
             "_flag_RC_Max_PWM_Value": 2050,
             "_flag_RC_Mid_PWM_Value": 1500,
