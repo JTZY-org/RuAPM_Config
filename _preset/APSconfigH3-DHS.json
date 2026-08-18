@@ -164,7 +164,9 @@
                 "_flag_PID_PosMan_Speed_Max": 50.0,
                 "_flag_PID_Pos_Accel_Max": 800.0,
                 "_flag_PID_Pos_Level_Max": 50.0,
-                "_flag_PID_Pos_Speed_Max": 50.0
+                "_flag_PID_Pos_Speed_Max": 50.0,
+                "_flag_RTH_Behavior": 0,
+                "_flag_RTH_Target_Altitude": 120
             }
         },
         "RCConfig": {
