@@ -8,6 +8,7 @@
             "GPSDeviceBandrate": 38400,
             "IMU_Freqeuncy": 2000,
             "MPU9250_Type": 1,
+            "RCFailedSafeBehavior": 0,
             "RC_Type": 2,
             "RXT_Freqeuncy": 500,
             "_IsBAROEnable": true,

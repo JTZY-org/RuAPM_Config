@@ -8,6 +8,7 @@
             "GPSDeviceBandrate": 115200,
             "IMU_Freqeuncy": 1500,
             "MPU9250_Type": 1,
+            "RCFailedSafeBehavior": 0,
             "RC_Type": 2,
             "RXT_Freqeuncy": 500,
             "_IsBAROEnable": true,
@@ -115,7 +116,7 @@
                 "_flag_PID_D_SpeedZ_Gain": 25.0,
                 "_flag_PID_Hover_Throttle": 1450.0,
                 "_flag_PID_I_Alt_Gain": 0.0,
-                "_flag_PID_I_SpeedZ_Gain": 0.20,
+                "_flag_PID_I_SpeedZ_Gain": 0.2,
                 "_flag_PID_P_Alt_Gain": 2.0,
                 "_flag_PID_P_SpeedZ_Gain": 2.0,
                 "_flag_PID_Takeoff_Altitude": 50.0
