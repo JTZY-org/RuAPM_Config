@@ -175,7 +175,6 @@
                 "UserAuto",
                 "SpeedHold",
                 "PositionHold",
-                "GPSTrack",
                 "GroundTrack",
                 "UserInTrack",
                 "AltHold",
@@ -224,11 +223,6 @@
                     8,
                     1780,
                     2100
-                ],
-                [
-                    8,
-                    900,
-                    1780
                 ],
                 [
                     0,
