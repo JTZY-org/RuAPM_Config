@@ -182,9 +182,9 @@
                 "UserInTrack",
                 "AltHold",
                 "AGLHold",
-                "MagHold",
                 "YawHold",
-                "BlackBoxErase"
+                "BlackBoxErase",
+                "GPSWayPoint"
             ],
             "APModeRange": [
                 [
@@ -248,14 +248,14 @@
                     0
                 ],
                 [
-                    0,
-                    0,
-                    0
-                ],
-                [
                     6,
                     1800,
                     2100
+                ],
+                [
+                    0,
+                    0,
+                    0
                 ]
             ],
             "_flag_RCIsReserv_Pitch": 1,
