@@ -123,8 +123,11 @@
             },
             "AttitudePID": {
                 "_flag_PID_AngleRate_Pitch_Gain": 6.0,
+                "_flag_PID_AngleRate_Pitch_Limit": 100,
                 "_flag_PID_AngleRate__Roll_Gain": 6.0,
+                "_flag_PID_AngleRate__Roll_Limit": 100,
                 "_flag_PID_AngleRate___Yaw_Gain": 6.0,
+                "_flag_PID_AngleRate___Yaw_Limit": 100,
                 "_flag_PID_D_Pitch_Gain": 20.0,
                 "_flag_PID_D__Roll_Gain": 20.0,
                 "_flag_PID_D___Yaw_Gain": 10.0,
