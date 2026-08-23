@@ -15,7 +15,6 @@
             "_IsBlackBoxEnable": true,
             "_IsFlowEnable": true,
             "_IsGPSEnable": true,
-            "_IsRCSafeEnable": true,
             "__FlowDevice": "/dev/ttyS3",
             "__GPSDevice": "/dev/ttyS1",
             "__I2CDevice": "/dev/i2c-2",
