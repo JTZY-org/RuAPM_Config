@@ -113,7 +113,7 @@
                 "_flag_PID_Alt_Level_Max": 300.0,
                 "_flag_PID_Alt_Speed_Max": 50.0,
                 "_flag_PID_D_SpeedZ_Gain": 25.0,
-                "_flag_PID_Hover_Throttle": 1350.0,
+                "_flag_PID_Hover_Throttle": 1300.0,
                 "_flag_PID_I_Alt_Gain": 0.0,
                 "_flag_PID_I_SpeedZ_Gain": 0.2,
                 "_flag_PID_P_Alt_Gain": 2.0,
@@ -408,6 +408,6 @@
             "V4L2Isp": []
         }
     },
-    "_info": "AcroPi V2 config for 3inch quadCopter",
-    "_title": "RK3566-3HN"
+    "_info": "AcroPi V2 config for 3inch quadCopter 4S pid profile",
+    "_title": "RK3566-3HN-4S"
 }
