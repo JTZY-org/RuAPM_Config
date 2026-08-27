@@ -408,6 +408,6 @@
             "V4L2Isp": []
         }
     },
-    "_info": "AcroPi V2 config for 7inch quadCopter",
-    "_title": "RK3566-7HN"
+    "_info": "AcroPi V2 config for 7inch quadCopter, use mateksys 3901",
+    "_title": "RK3566-7HNMTFlow"
 }
