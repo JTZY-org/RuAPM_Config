@@ -1,12 +1,12 @@
 {
     "APMConfig": {
         "DeviceConfig": {
-            "BBC_Freqeuncy": 750,
-            "BBC_PInterval": "1/2",
+            "BBC_Freqeuncy": 1000,
+            "BBC_PInterval": "1/1",
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
             "GPSDeviceBandrate": 115200,
-            "IMU_Freqeuncy": 1500,
+            "IMU_Freqeuncy": 1000,
             "MPU9250_Type": 1,
             "RCFailedSafeBehavior": 1,
             "RC_Type": 2,
@@ -137,7 +137,7 @@
                 "_flag_PID_I___Yaw_Gain": 0.0015,
                 "_flag_PID_I___Yaw_Max__Value": 300.0,
                 "_flag_PID_Level_Max": 400.0,
-                "_flag_PID_MaxTrottle_Litmit": 2000.0,
+                "_flag_PID_MaxTrottle_Litmit": 1800.0,
                 "_flag_PID_P_Pitch_Gain": 1.8,
                 "_flag_PID_P__Roll_Gain": 1.0,
                 "_flag_PID_P___Yaw_Gain": 1.8,
