@@ -6,7 +6,7 @@
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
             "GPSDeviceBandrate": 115200,
-            "IMU_Freqeuncy": 6000,
+            "IMU_Freqeuncy": 8000,
             "MPU9250_Type": 1,
             "RCFailedSafeBehavior": 1,
             "RC_Type": 2,
@@ -21,7 +21,7 @@
             "__MPUDeviceSPI": [
                 "/dev/spidev1.0"
             ],
-            "__MPUDeviceSPIFreq": 5000000,
+            "__MPUDeviceSPIFreq": 8000000,
             "__MagAddress": 13,
             "__MagDevice": 0,
             "__RCDevice": "/dev/ttyS0",
