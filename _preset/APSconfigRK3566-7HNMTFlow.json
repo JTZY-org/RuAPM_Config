@@ -18,7 +18,10 @@
             "__FlowDevice": "/dev/ttyS3",
             "__GPSDevice": "/dev/ttyS1",
             "__I2CDevice": "/dev/i2c-2",
-            "__MPUDeviceSPI": "/dev/spidev1.0",
+            "__MPUDeviceSPI": [
+                "/dev/spidev1.0"
+            ],
+            "__MPUDeviceSPIFreq": 5000000,
             "__MagAddress": 44,
             "__MagDevice": 2,
             "__RCDevice": "/dev/ttyS0",
