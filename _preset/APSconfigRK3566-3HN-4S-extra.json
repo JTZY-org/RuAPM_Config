@@ -317,7 +317,7 @@
             "_flag_MPU9250_A_Z_Scal": 1,
             "_flag_MPU_Flip_Pitch": 0,
             "_flag_MPU_Flip__Roll": 0,
-            "_flag_MPU_Flip___Yaw": 90
+            "_flag_MPU_Flip___Yaw": 270
         }
     },
     "CommonConfig": {
