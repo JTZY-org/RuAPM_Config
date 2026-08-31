@@ -3,6 +3,7 @@
         "DeviceConfig": {
             "BBC_Freqeuncy": 750,
             "BBC_PInterval": "1/2",
+            "BBC_RecordOnBoot": false,
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
             "GPSDeviceBandrate": 115200,
