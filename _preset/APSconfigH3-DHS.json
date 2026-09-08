@@ -22,12 +22,12 @@
             "__MPUDeviceSPI": [
                 "/dev/spidev0.0"
             ],
-            "__MPUDeviceSPIFreq": 1000000,
+            "__MPUDeviceSPIFreq": 8000000,
             "__MagAddress": 44,
             "__MagDevice": 0,
             "__RCDevice": "/dev/ttyS1",
             "_flag_BBQ_CPU_Asign": 1,
-            "_flag_Sys_CPU_Asign": 2
+            "_flag_Sys_CPU_Asign": 3
         },
         "FilterConfig": {
             "_flag_AccelBias_Trust_Beta": 0.02,
