@@ -1,13 +1,13 @@
 {
     "APMConfig": {
         "DeviceConfig": {
-            "BBC_Freqeuncy": 750,
-            "BBC_PInterval": "1/2",
+            "BBC_Freqeuncy": 1000,
+            "BBC_PInterval": "1/4",
             "BBC_RecordOnBoot": false,
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
             "GPSDeviceBandrate": 115200,
-            "IMU_Freqeuncy": 1500,
+            "IMU_Freqeuncy": 4000,
             "MPU9250_Type": 1,
             "RCFailedSafeBehavior": 0,
             "RC_Type": 2,
@@ -22,9 +22,9 @@
             "__MPUDeviceSPI": [
                 "/dev/spidev1.0"
             ],
-            "__MPUDeviceSPIFreq": 5000000,
-            "__MagAddress": 44,
-            "__MagDevice": 2,
+            "__MPUDeviceSPIFreq": 8000000,
+            "__MagAddress": 13,
+            "__MagDevice": 0,
             "__RCDevice": "/dev/ttyS0",
             "_flag_BBQ_CPU_Asign": 2,
             "_flag_Sys_CPU_Asign": 3
@@ -298,9 +298,9 @@
                     1.0
                 ]
             ],
-            "_flag_COMPASS_Flip_Pitch": 180.0,
+            "_flag_COMPASS_Flip_Pitch": 0.0,
             "_flag_COMPASS_Flip__Roll": 0.0,
-            "_flag_COMPASS_Flip___Yaw": 270.0,
+            "_flag_COMPASS_Flip___Yaw": 0.0,
             "_flag_COMPASS_YAW_Offset": 0.0,
             "_flag_Flow_BodyAsixX_Gain": -0.03,
             "_flag_Flow_BodyAsixY_Gain": 0.03,

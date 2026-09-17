@@ -2,7 +2,7 @@
     "APMConfig": {
         "DeviceConfig": {
             "BBC_Freqeuncy": 1000,
-            "BBC_PInterval": "1/1",
+            "BBC_PInterval": "1/4",
             "BBC_RecordOnBoot": false,
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
