@@ -326,7 +326,7 @@
         "COM_APMTelCastEnable": true,
         "COM_BroadCastBitRate": 5000000,
         "COM_BroadCastEnable": true,
-        "COM_BroadCastPFrameSize": 120,
+        "COM_BroadCastPFrameSize": 20,
         "COM_BroadCastVidQB": 35,
         "COM_BroadCastWirelessFECSize": 1.0,
         "COM_BroadCastWirelessFreq": 5825,
@@ -356,11 +356,11 @@
         "Device": [
             {
                 "DeviceDriver": "V4L2",
-                "DeviceFPS": 120,
-                "DeviceHeight": 480,
+                "DeviceFPS": 60,
+                "DeviceHeight": 972,
                 "DeviceIFormat": "NV12",
                 "DevicePATH": "/dev/video0",
-                "DeviceWidth": 640,
+                "DeviceWidth": 1296,
                 "EnableDMAPassThrough": true,
                 "MaxBufferSize": 4,
                 "enable": true,
@@ -409,10 +409,10 @@
             "V4L2Encoder": [
                 "USER"
             ],
-            "V4L2EncoderFPS": 120,
-            "V4L2EncoderHeight": 480,
+            "V4L2EncoderFPS": 60,
+            "V4L2EncoderHeight": 972,
             "V4L2EncoderInFormart": "NV12",
-            "V4L2EncoderWidth": 640,
+            "V4L2EncoderWidth": 1296,
             "V4L2Isp": []
         }
     },
