@@ -6,7 +6,7 @@
             "BBC_RecordOnBoot": false,
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
-            "GPSDeviceBandrate": 38400,
+            "GPSDeviceBandrate": 115200,
             "IMU_Freqeuncy": 2000,
             "MPU9250_Type": 1,
             "RCFailedSafeBehavior": 0,
@@ -23,7 +23,7 @@
                 "/dev/spidev0.0"
             ],
             "__MPUDeviceSPIFreq": 8000000,
-            "__MagAddress": 44,
+            "__MagAddress": 13,
             "__MagDevice": 0,
             "__RCDevice": "/dev/ttyS1",
             "_flag_BBQ_CPU_Asign": 1,

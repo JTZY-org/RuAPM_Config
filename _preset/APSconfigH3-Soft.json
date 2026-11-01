@@ -6,7 +6,7 @@
             "BBC_RecordOnBoot": false,
             "ESC_Freqeuncy": 800,
             "EnableUnlock_Protection": true,
-            "GPSDeviceBandrate": 38400,
+            "GPSDeviceBandrate": 115200,
             "IMU_Freqeuncy": 2000,
             "MPU9250_Type": 1,
             "RCFailedSafeBehavior": 0,
