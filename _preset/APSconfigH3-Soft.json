@@ -315,7 +315,7 @@
             "_flag_MPU9250_A_Z_Scal": 1,
             "_flag_MPU_Flip_Pitch": 0,
             "_flag_MPU_Flip__Roll": 0,
-            "_flag_MPU_Flip___Yaw": 90
+            "_flag_MPU_Flip___Yaw": 0
         }
     },
     "CommonConfig": {
@@ -399,6 +399,6 @@
             "V4L2Isp": []
         }
     },
-    "_info": "AcroPi V1 config for 7inch quadCopter, Soft",
+    "_info": "AcroPi V1 config for 7inch quadCopter, Soft, 40609D A210CR",
     "_title": "H3-Soft"
 }
